@@ -1,0 +1,22 @@
+library(dplyr) # load dplyr package
+
+mpg_data <- read.csv(file='MechaCar_mpg.csv', check.names=F, stringsAsFactors=F) # import mpg data as dataframe
+
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mpg_data) # perform linear regression
+
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mpg_data)) # display summary of linear regression
+
+coil_data <- read.csv(file='Suspension_Coil.csv', check.names=F, stringsAsFactors=F) # import coil data as dataframe
+
+total_summary <- coil_data %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI)) # create summary table with mean, median, variance, and standard deviation of PSI
+
+lot_summary <- coil_data %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI)) # create summary table by lot
+
+t.test((coil_data$PSI), mu=1500) # determine if PSI across all lots is statistically different from the population mean of 1,500 PSI
+
+t.test(subset(coil_data, Manufacturing_Lot == "Lot1")$PSI, mu=1500) # determine if PSI for lot 1 is statistically different from the population mean of 1,500 PSI
+
+t.test(subset(coil_data, Manufacturing_Lot == "Lot2")$PSI, mu=1500) # determine if PSI for lot 2 is statistically different from the population mean of 1,500 PSI
+
+t.test(subset(coil_data, Manufacturing_Lot == "Lot3")$PSI, mu=1500) # determine if PSI for lot 3 is statistically different from the population mean of 1,500 PSI
+
