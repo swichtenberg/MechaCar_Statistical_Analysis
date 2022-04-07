@@ -23,13 +23,10 @@ Suspension coil pounds per square inch across all lots was not statistically dif
 
 ### All Lots
 ![Deliverable3_singleT](https://user-images.githubusercontent.com/96216947/162306664-7ccf26a3-4ad5-44b2-8ca2-193e78c36c24.JPG)
-
 ### Lot 1
 ![Deliverable3_Lot1](https://user-images.githubusercontent.com/96216947/162306749-9a828ef8-132e-4c01-b9c2-f556c62a1990.JPG)
-
 ### Lot 2
 ![Deliverable3_Lot2](https://user-images.githubusercontent.com/96216947/162306822-32aa2382-f148-41aa-a6ae-6adc0bb1d21b.JPG)
-
 ### Lot 3
 ![Deliverable3_Lot3](https://user-images.githubusercontent.com/96216947/162306908-30a2719a-6639-440a-9681-699a4909e0a2.JPG)
 
