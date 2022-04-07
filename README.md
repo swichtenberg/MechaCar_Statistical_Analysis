@@ -30,3 +30,5 @@ Suspension coil pounds per square inch across all lots was not statistically dif
 ### Lot 3
 ![Deliverable3_Lot3](https://user-images.githubusercontent.com/96216947/162306908-30a2719a-6639-440a-9681-699a4909e0a2.JPG)
 
+## Study Design: MechaCar vs Competition
+
