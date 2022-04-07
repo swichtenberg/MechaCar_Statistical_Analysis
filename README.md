@@ -31,4 +31,8 @@ Suspension coil pounds per square inch across all lots was not statistically dif
 ![Deliverable3_Lot3](https://user-images.githubusercontent.com/96216947/162306908-30a2719a-6639-440a-9681-699a4909e0a2.JPG)
 
 ## Study Design: MechaCar vs Competition
+The initial vehicle cost is often a primary consideration of consumers. In order to ensure the MechaCar is competively priced when released further analysis of the market is necessary. 
+
+The Insurance Institute for Highway Safety (IIHS) rates the safety of vehicles based on a number of criteria, including crashworthiness, crash avoidance and mitigation, and seat belts and child restraints. Each item within the categories are given a grade from good to poor. As part of the analysis to evaluate the performace of the MechaCar, the safety should be compared to similar vehicles on the market. Both the overall safety and individual safety metrics should be considered. 
+
 
